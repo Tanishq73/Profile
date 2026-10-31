@@ -1,0 +1,58 @@
+# ------------------------------------------------------------
+#  Your landing page content. Edit this file, then run:
+#      python build.py
+#  Pushing to GitHub rebuilds and publishes the page automatically.
+# ------------------------------------------------------------
+
+name     = "Tanishq Bhattacharjee"
+github   = "Tanishq73"
+role     = "AIOps Engineer"
+tagline  = "Making production systems watch, explain, and heal themselves."
+
+about = """
+I work where machine learning meets operations: turning logs, metrics and
+traces into signals, catching incidents before users do, and automating the
+toil out of on-call.
+"""
+
+# Short line shown under "Now". Leave empty ("") to hide.
+now = "Exploring LLM agents for incident triage and root-cause analysis."
+
+# ---- Links (shown at the top). Remove any you don't use. ----
+[links]
+GitHub   = "https://github.com/Tanishq73"
+Email    = "mailto:73.tanishq@gmail.com"
+# LinkedIn = "https://www.linkedin.com/in/your-handle"
+
+# ---- What you focus on ----
+[[focus]]
+title = "Anomaly detection"
+text  = "Spotting unusual behaviour in metrics and logs, with fewer false alarms."
+
+[[focus]]
+title = "Observability"
+text  = "Logs, metrics and traces wired together so problems are easy to see."
+
+[[focus]]
+title = "Incident automation"
+text  = "Alert grouping, runbook automation and self-healing remediation."
+
+[[focus]]
+title = "LLMs for Ops"
+text  = "Using language models to summarise incidents and suggest root causes."
+
+# ---- Tools you use ----
+[toolkit]
+items = [
+  "Python", "Prometheus", "Grafana", "OpenTelemetry", "ELK",
+  "Kubernetes", "Docker", "Terraform", "scikit-learn", "PyTorch",
+]
+
+# ---- Projects ----
+# Your public GitHub repositories are added automatically when the page builds.
+# To show only specific repos (in this order), list their names here:
+#   pinned = ["repo-one", "repo-two"]
+# Leave it empty to show your most recently updated repos.
+[projects]
+pinned = []
+max    = 6
