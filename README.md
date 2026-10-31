@@ -20,6 +20,6 @@ Needs Python 3.11+, no packages to install.
 
 1. On GitHub, open this repo → **Settings → Pages**.
 2. Under **Build and deployment → Source**, pick **GitHub Actions**.
-3. Push any change. The page goes live at `https://tanishq73.github.io/profile/`.
+3. Push any change. The page goes live at `https://tanishq73.github.io/Profile/`.
 
 It also rebuilds weekly, so new public repos show up under *Projects* automatically.
