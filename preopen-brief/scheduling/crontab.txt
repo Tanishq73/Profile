@@ -1,0 +1,17 @@
+# preopen-brief - install with:  crontab -e   (paste, after fixing the path below)
+#
+# CRON_TZ makes the schedule IST regardless of the machine's time zone. cronie
+# (Fedora/RHEL/Arch/Termux) honours it. Other crons - Debian/Ubuntu's default
+# cron, macOS cron - may IGNORE it and use the system time zone: on those, make
+# sure the system time zone is Asia/Kolkata (normal for a machine in India).
+# The jobs also check the date themselves and exit quietly on NSE holidays.
+
+CRON_TZ=Asia/Kolkata
+PREOPEN=/home/you/preopen-brief
+
+# 09:09 Mon-Fri  morning brief (pre-open order collection closes 09:07-09:08)
+9 9 * * 1-5   cd "$PREOPEN" && .venv/bin/python -m preopen_brief.jobs.morning >> logs/cron.log 2>&1
+# 15:32 Mon-Fri  close snapshot + scoring
+32 15 * * 1-5 cd "$PREOPEN" && .venv/bin/python -m preopen_brief.jobs.close   >> logs/cron.log 2>&1
+# Saturday 10:00 weekly evaluation
+0 10 * * 6    cd "$PREOPEN" && .venv/bin/python -m preopen_brief.jobs.weekly  >> logs/cron.log 2>&1

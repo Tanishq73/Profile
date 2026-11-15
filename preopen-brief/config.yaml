@@ -1,0 +1,105 @@
+# preopen-brief configuration. Every threshold and weight lives here; nothing is
+# hard-coded in the signal functions. Percentages are in percent units
+# (0.3 means 0.3 %).
+
+timezone: Asia/Kolkata
+
+paths:
+  data_dir: data          # SQLite db, runs.jsonl, holiday cache
+  logs_dir: logs
+  fixtures_dir: fixtures  # where probe.py saves raw responses
+
+run:
+  budget_seconds: 90      # hard wall-clock budget for one job
+  reserve_seconds: 12     # kept back for storing + sending the brief
+
+http:
+  connect_timeout: 5
+  read_timeout: 10
+  max_retries: 3          # Telegram / healthcheck
+  backoff_base: 0.6       # seconds; doubles each retry, plus jitter
+  backoff_max: 5.0
+
+nse:
+  base_url: https://www.nseindia.com
+  backend: httpx          # httpx | curl_cffi (experimental, see README caveats)
+  max_requests_per_run: 10
+  min_interval_ms: 450    # >= 400 ms between any two NSE requests
+  max_retries: 2          # per endpoint; kept below http.max_retries to respect the request cap
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+  holiday_segment: CM
+  holiday_cache_max_age_days: 30   # re-fetch the yearly list this often (ad-hoc holidays)
+
+yahoo:
+  us_cash:        {"^GSPC": "S&P", "^IXIC": "Nasdaq", "^DJI": "Dow"}
+  us_futures:     {"ES=F": "ES", "NQ=F": "NQ", "YM=F": "YM"}
+  india_vix: "^INDIAVIX"
+  nifty: "^NSEI"
+  context_enabled: false
+  context:        {"^N225": "Nikkei", "^HSI": "Hang Seng", "^KS11": "KOSPI", "USDINR=X": "USD/INR", "BZ=F": "Brent"}
+  history_period: 1y
+  # cash_close: futures % change is measured from the 16:00 New York price of the
+  #             last completed US session (needs a 2nd batched call for hourly bars).
+  # daily:      one batched call only; uses Yahoo daily bars, flagged "daily-bar ref".
+  futures_reference: cash_close
+  futures_intraday_period: 5d
+  futures_intraday_interval: 60m
+  futures_max_age_minutes: 120
+  max_retries: 3
+  call_timeout_seconds: 10
+
+signals:
+  us_cash:
+    flat_band_pct: 0.3
+    min_components: 2
+  us_futures:
+    flat_band_pct: 0.3
+    min_components: 2
+  gift_gap:
+    flat_band_pct: 0.25
+    strong_band_pct: 0.75
+    max_quote_age_minutes: 15
+  vix:
+    calm_below: 12
+    stable_below: 15
+    elevated_upto: 20       # above this is "high"
+    percentile_window: 252
+    min_history: 60
+    prev_close_before: "09:15"
+  breadth:
+    band: 0.2
+    indicative_before: "09:08"
+
+composite:
+  # VIX is deliberately absent: it measures magnitude, not direction.
+  weights:
+    us_cash: 0.20
+    us_futures: 0.25
+    gift_gap: 0.40
+    breadth: 0.15
+  breadth_universe: NIFTY   # NIFTY | ALL (falls back to the other if missing)
+  strong_score: 1.5         # score of a "strong" gift_gap label (plain label = 1)
+  bias_threshold: 0.25      # |weighted score| below this is "mixed"
+  min_scored_days: 60       # "uncalibrated" tag until this many scored days
+
+evaluation:
+  default_days: 90
+  weekly_days: 90
+  min_days_for_tuning: 60   # weights are never tuned (or even suggested) below this
+
+close:
+  notify: false             # send a short Telegram note after the 15:32 job
+
+healthcheck:
+  ping_on_skip: true        # also ping on holidays so the dead-man's switch stays quiet
+
+llm:
+  timeout_seconds: 10
+  max_sentences: 3
+  groq_model: llama-3.3-70b-versatile
+  gemini_model: gemini-2.5-flash
+
+logging:
+  level: INFO
+  max_bytes: 1000000
+  backup_count: 5

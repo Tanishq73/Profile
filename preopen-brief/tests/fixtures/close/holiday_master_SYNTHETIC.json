@@ -1,0 +1,57 @@
+{
+ "_synthetic": "SYNTHETIC test fixture - hand-made, NOT a real NSE/Yahoo response",
+ "CM": [
+  {
+   "tradingDate": "26-Jan-2026",
+   "weekDay": "Monday",
+   "description": "Republic Day",
+   "Sr_no": 1
+  },
+  {
+   "tradingDate": "03-Apr-2026",
+   "weekDay": "Friday",
+   "description": "Good Friday",
+   "Sr_no": 2
+  },
+  {
+   "tradingDate": "01-May-2026",
+   "weekDay": "Friday",
+   "description": "Maharashtra Day",
+   "Sr_no": 3
+  },
+  {
+   "tradingDate": "02-Oct-2026",
+   "weekDay": "Friday",
+   "description": "Mahatma Gandhi Jayanti",
+   "Sr_no": 4
+  },
+  {
+   "tradingDate": "10-Nov-2026",
+   "weekDay": "Tuesday",
+   "description": "Diwali Balipratipada",
+   "Sr_no": 5
+  },
+  {
+   "tradingDate": "25-Dec-2026",
+   "weekDay": "Friday",
+   "description": "Christmas",
+   "Sr_no": 6
+  }
+ ],
+ "FO": [
+  {
+   "tradingDate": "26-Jan-2026",
+   "weekDay": "Monday",
+   "description": "Republic Day",
+   "Sr_no": 1
+  }
+ ],
+ "CD": [
+  {
+   "tradingDate": "19-Feb-2026",
+   "weekDay": "Thursday",
+   "description": "Synthetic CD-only holiday",
+   "Sr_no": 1
+  }
+ ]
+}

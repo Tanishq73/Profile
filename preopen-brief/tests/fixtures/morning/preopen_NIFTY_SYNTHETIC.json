@@ -1,0 +1,1009 @@
+{
+ "_synthetic": "SYNTHETIC test fixture - hand-made, NOT a real NSE/Yahoo response",
+ "declines": 17,
+ "unchanged": 2,
+ "data": [
+  {
+   "metadata": {
+    "symbol": "SYNN001",
+    "identifier": "SYNN001EQN",
+    "lastPrice": 384.4,
+    "change": 6.09,
+    "pChange": 1.61,
+    "previousClose": 378.31,
+    "finalQuantity": 70722,
+    "iep": 384.4
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 384.4,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 438777,
+     "totalSellQuantity": 90144
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN002",
+    "identifier": "SYNN002EQN",
+    "lastPrice": 2658.14,
+    "change": 22.4,
+    "pChange": 0.85,
+    "previousClose": 2635.74,
+    "finalQuantity": 79401,
+    "iep": 2658.14
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 2658.14,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 358266,
+     "totalSellQuantity": 428385
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN003",
+    "identifier": "SYNN003EQN",
+    "lastPrice": 3041.77,
+    "change": 27.13,
+    "pChange": 0.9,
+    "previousClose": 3014.64,
+    "finalQuantity": 67453,
+    "iep": 3041.77
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 3041.77,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 281702,
+     "totalSellQuantity": 274623
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN004",
+    "identifier": "SYNN004EQN",
+    "lastPrice": 1505.66,
+    "change": 23.42,
+    "pChange": 1.58,
+    "previousClose": 1482.24,
+    "finalQuantity": 67128,
+    "iep": 1505.66
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 1505.66,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 496168,
+     "totalSellQuantity": 301756
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN005",
+    "identifier": "SYNN005EQN",
+    "lastPrice": 3334.95,
+    "change": 55.75,
+    "pChange": 1.7,
+    "previousClose": 3279.2,
+    "finalQuantity": 81322,
+    "iep": 3334.95
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 3334.95,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 428137,
+     "totalSellQuantity": 322166
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN006",
+    "identifier": "SYNN006EQN",
+    "lastPrice": 2647.49,
+    "change": 32.43,
+    "pChange": 1.24,
+    "previousClose": 2615.06,
+    "finalQuantity": 65388,
+    "iep": 2647.49
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 2647.49,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 446086,
+     "totalSellQuantity": 249656
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN007",
+    "identifier": "SYNN007EQN",
+    "lastPrice": 4173.16,
+    "change": 44.59,
+    "pChange": 1.08,
+    "previousClose": 4128.57,
+    "finalQuantity": 22379,
+    "iep": 4173.16
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 4173.16,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 138700,
+     "totalSellQuantity": 120680
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN008",
+    "identifier": "SYNN008EQN",
+    "lastPrice": 2202.51,
+    "change": 3.08,
+    "pChange": 0.14,
+    "previousClose": 2199.43,
+    "finalQuantity": 43201,
+    "iep": 2202.51
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 2202.51,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 40098,
+     "totalSellQuantity": 476447
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN009",
+    "identifier": "SYNN009EQN",
+    "lastPrice": 2466.03,
+    "change": 15.2,
+    "pChange": 0.62,
+    "previousClose": 2450.83,
+    "finalQuantity": 9925,
+    "iep": 2466.03
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 2466.03,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 3146,
+     "totalSellQuantity": 292634
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN010",
+    "identifier": "SYNN010EQN",
+    "lastPrice": 3938.01,
+    "change": 63.92,
+    "pChange": 1.65,
+    "previousClose": 3874.09,
+    "finalQuantity": 14459,
+    "iep": 3938.01
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 3938.01,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 462232,
+     "totalSellQuantity": 211656
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN011",
+    "identifier": "SYNN011EQN",
+    "lastPrice": 1245.13,
+    "change": 15.86,
+    "pChange": 1.29,
+    "previousClose": 1229.27,
+    "finalQuantity": 84859,
+    "iep": 1245.13
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 1245.13,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 402465,
+     "totalSellQuantity": 128377
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN012",
+    "identifier": "SYNN012EQN",
+    "lastPrice": 1967.17,
+    "change": 9.79,
+    "pChange": 0.5,
+    "previousClose": 1957.38,
+    "finalQuantity": 28764,
+    "iep": 1967.17
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 1967.17,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 321631,
+     "totalSellQuantity": 391933
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN013",
+    "identifier": "SYNN013EQN",
+    "lastPrice": 2050.83,
+    "change": 20.71,
+    "pChange": 1.02,
+    "previousClose": 2030.12,
+    "finalQuantity": 88735,
+    "iep": 2050.83
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 2050.83,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 137587,
+     "totalSellQuantity": 159591
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN014",
+    "identifier": "SYNN014EQN",
+    "lastPrice": 2724.13,
+    "change": 28.57,
+    "pChange": 1.06,
+    "previousClose": 2695.56,
+    "finalQuantity": 16616,
+    "iep": 2724.13
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 2724.13,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 91009,
+     "totalSellQuantity": 428682
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN015",
+    "identifier": "SYNN015EQN",
+    "lastPrice": 4017.22,
+    "change": 26.74,
+    "pChange": 0.67,
+    "previousClose": 3990.48,
+    "finalQuantity": 18054,
+    "iep": 4017.22
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 4017.22,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 448627,
+     "totalSellQuantity": 287459
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN016",
+    "identifier": "SYNN016EQN",
+    "lastPrice": 3682.9,
+    "change": 13.58,
+    "pChange": 0.37,
+    "previousClose": 3669.32,
+    "finalQuantity": 19055,
+    "iep": 3682.9
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 3682.9,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 377686,
+     "totalSellQuantity": 109906
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN017",
+    "identifier": "SYNN017EQN",
+    "lastPrice": 3686.2,
+    "change": 62.33,
+    "pChange": 1.72,
+    "previousClose": 3623.87,
+    "finalQuantity": 36635,
+    "iep": 3686.2
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 3686.2,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 398716,
+     "totalSellQuantity": 202570
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN018",
+    "identifier": "SYNN018EQN",
+    "lastPrice": 3465.76,
+    "change": 54.24,
+    "pChange": 1.59,
+    "previousClose": 3411.52,
+    "finalQuantity": 80141,
+    "iep": 3465.76
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 3465.76,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 368572,
+     "totalSellQuantity": 160504
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN019",
+    "identifier": "SYNN019EQN",
+    "lastPrice": 2278.88,
+    "change": 22.12,
+    "pChange": 0.98,
+    "previousClose": 2256.76,
+    "finalQuantity": 59908,
+    "iep": 2278.88
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 2278.88,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 53614,
+     "totalSellQuantity": 375222
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN020",
+    "identifier": "SYNN020EQN",
+    "lastPrice": 2046.82,
+    "change": 34.41,
+    "pChange": 1.71,
+    "previousClose": 2012.41,
+    "finalQuantity": 42522,
+    "iep": 2046.82
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 2046.82,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 413593,
+     "totalSellQuantity": 70073
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN021",
+    "identifier": "SYNN021EQN",
+    "lastPrice": 3375.26,
+    "change": 16.12,
+    "pChange": 0.48,
+    "previousClose": 3359.14,
+    "finalQuantity": 15667,
+    "iep": 3375.26
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 3375.26,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 392732,
+     "totalSellQuantity": 17725
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN022",
+    "identifier": "SYNN022EQN",
+    "lastPrice": 2194.16,
+    "change": 23.01,
+    "pChange": 1.06,
+    "previousClose": 2171.15,
+    "finalQuantity": 39408,
+    "iep": 2194.16
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 2194.16,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 188476,
+     "totalSellQuantity": 66892
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN023",
+    "identifier": "SYNN023EQN",
+    "lastPrice": 1628.55,
+    "change": 27.85,
+    "pChange": 1.74,
+    "previousClose": 1600.7,
+    "finalQuantity": 64370,
+    "iep": 1628.55
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 1628.55,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 6704,
+     "totalSellQuantity": 37496
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN024",
+    "identifier": "SYNN024EQN",
+    "lastPrice": 1407.39,
+    "change": 1.55,
+    "pChange": 0.11,
+    "previousClose": 1405.84,
+    "finalQuantity": 15680,
+    "iep": 1407.39
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 1407.39,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 218675,
+     "totalSellQuantity": 488148
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN025",
+    "identifier": "SYNN025EQN",
+    "lastPrice": 2150.7,
+    "change": 19.18,
+    "pChange": 0.9,
+    "previousClose": 2131.52,
+    "finalQuantity": 56873,
+    "iep": 2150.7
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 2150.7,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 396512,
+     "totalSellQuantity": 450431
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN026",
+    "identifier": "SYNN026EQN",
+    "lastPrice": 746.96,
+    "change": 11.55,
+    "pChange": 1.57,
+    "previousClose": 735.41,
+    "finalQuantity": 27807,
+    "iep": 746.96
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 746.96,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 53543,
+     "totalSellQuantity": 487002
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN027",
+    "identifier": "SYNN027EQN",
+    "lastPrice": 3396.35,
+    "change": 35.96,
+    "pChange": 1.07,
+    "previousClose": 3360.39,
+    "finalQuantity": 25992,
+    "iep": 3396.35
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 3396.35,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 164979,
+     "totalSellQuantity": 88530
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN028",
+    "identifier": "SYNN028EQN",
+    "lastPrice": 304.99,
+    "change": 3.91,
+    "pChange": 1.3,
+    "previousClose": 301.08,
+    "finalQuantity": 34802,
+    "iep": 304.99
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 304.99,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 254259,
+     "totalSellQuantity": 332278
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN029",
+    "identifier": "SYNN029EQN",
+    "lastPrice": 3707.86,
+    "change": 21.75,
+    "pChange": 0.59,
+    "previousClose": 3686.11,
+    "finalQuantity": 78343,
+    "iep": 3707.86
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 3707.86,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 159920,
+     "totalSellQuantity": 107200
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN030",
+    "identifier": "SYNN030EQN",
+    "lastPrice": 3758.92,
+    "change": 6.38,
+    "pChange": 0.17,
+    "previousClose": 3752.54,
+    "finalQuantity": 32363,
+    "iep": 3758.92
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 3758.92,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 122627,
+     "totalSellQuantity": 450530
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN031",
+    "identifier": "SYNN031EQN",
+    "lastPrice": 3718.63,
+    "change": 65.39,
+    "pChange": 1.79,
+    "previousClose": 3653.24,
+    "finalQuantity": 70920,
+    "iep": 3718.63
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 3718.63,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 496509,
+     "totalSellQuantity": 38663
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN032",
+    "identifier": "SYNN032EQN",
+    "lastPrice": 2928.35,
+    "change": -43.99,
+    "pChange": -1.48,
+    "previousClose": 2972.34,
+    "finalQuantity": 81368,
+    "iep": 2928.35
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 2928.35,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 322521,
+     "totalSellQuantity": 199317
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN033",
+    "identifier": "SYNN033EQN",
+    "lastPrice": 1850.27,
+    "change": -11.92,
+    "pChange": -0.64,
+    "previousClose": 1862.19,
+    "finalQuantity": 36493,
+    "iep": 1850.27
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 1850.27,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 495240,
+     "totalSellQuantity": 298004
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN034",
+    "identifier": "SYNN034EQN",
+    "lastPrice": 4047.32,
+    "change": -70.41,
+    "pChange": -1.71,
+    "previousClose": 4117.73,
+    "finalQuantity": 83164,
+    "iep": 4047.32
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 4047.32,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 25974,
+     "totalSellQuantity": 387082
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN035",
+    "identifier": "SYNN035EQN",
+    "lastPrice": 179.8,
+    "change": -1.14,
+    "pChange": -0.63,
+    "previousClose": 180.94,
+    "finalQuantity": 40885,
+    "iep": 179.8
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 179.8,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 242577,
+     "totalSellQuantity": 193602
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN036",
+    "identifier": "SYNN036EQN",
+    "lastPrice": 3923.35,
+    "change": -62.17,
+    "pChange": -1.56,
+    "previousClose": 3985.52,
+    "finalQuantity": 59545,
+    "iep": 3923.35
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 3923.35,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 146108,
+     "totalSellQuantity": 422450
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN037",
+    "identifier": "SYNN037EQN",
+    "lastPrice": 1788.76,
+    "change": -25.77,
+    "pChange": -1.42,
+    "previousClose": 1814.53,
+    "finalQuantity": 63709,
+    "iep": 1788.76
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 1788.76,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 109430,
+     "totalSellQuantity": 103396
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN038",
+    "identifier": "SYNN038EQN",
+    "lastPrice": 3282.54,
+    "change": -55.41,
+    "pChange": -1.66,
+    "previousClose": 3337.95,
+    "finalQuantity": 56432,
+    "iep": 3282.54
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 3282.54,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 141571,
+     "totalSellQuantity": 177148
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN039",
+    "identifier": "SYNN039EQN",
+    "lastPrice": 3607.28,
+    "change": -53.45,
+    "pChange": -1.46,
+    "previousClose": 3660.73,
+    "finalQuantity": 77835,
+    "iep": 3607.28
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 3607.28,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 265429,
+     "totalSellQuantity": 338279
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN040",
+    "identifier": "SYNN040EQN",
+    "lastPrice": 1269.49,
+    "change": -1.78,
+    "pChange": -0.14,
+    "previousClose": 1271.27,
+    "finalQuantity": 1823,
+    "iep": 1269.49
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 1269.49,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 67072,
+     "totalSellQuantity": 444142
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN041",
+    "identifier": "SYNN041EQN",
+    "lastPrice": 153.45,
+    "change": -2.34,
+    "pChange": -1.5,
+    "previousClose": 155.79,
+    "finalQuantity": 39183,
+    "iep": 153.45
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 153.45,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 164683,
+     "totalSellQuantity": 153183
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN042",
+    "identifier": "SYNN042EQN",
+    "lastPrice": 3129.13,
+    "change": -33.84,
+    "pChange": -1.07,
+    "previousClose": 3162.97,
+    "finalQuantity": 81731,
+    "iep": 3129.13
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 3129.13,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 496218,
+     "totalSellQuantity": 409251
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN043",
+    "identifier": "SYNN043EQN",
+    "lastPrice": 1794.75,
+    "change": -1.98,
+    "pChange": -0.11,
+    "previousClose": 1796.73,
+    "finalQuantity": 10671,
+    "iep": 1794.75
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 1794.75,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 498916,
+     "totalSellQuantity": 195099
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN044",
+    "identifier": "SYNN044EQN",
+    "lastPrice": 3061.54,
+    "change": -16.93,
+    "pChange": -0.55,
+    "previousClose": 3078.47,
+    "finalQuantity": 28001,
+    "iep": 3061.54
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 3061.54,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 230861,
+     "totalSellQuantity": 164824
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN045",
+    "identifier": "SYNN045EQN",
+    "lastPrice": 3369.6,
+    "change": -30.6,
+    "pChange": -0.9,
+    "previousClose": 3400.2,
+    "finalQuantity": 80971,
+    "iep": 3369.6
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 3369.6,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 256396,
+     "totalSellQuantity": 180166
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN046",
+    "identifier": "SYNN046EQN",
+    "lastPrice": 1463.63,
+    "change": -14.49,
+    "pChange": -0.98,
+    "previousClose": 1478.12,
+    "finalQuantity": 53370,
+    "iep": 1463.63
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 1463.63,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 57257,
+     "totalSellQuantity": 470708
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN047",
+    "identifier": "SYNN047EQN",
+    "lastPrice": 1052.68,
+    "change": -13.33,
+    "pChange": -1.25,
+    "previousClose": 1066.01,
+    "finalQuantity": 53745,
+    "iep": 1052.68
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 1052.68,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 143940,
+     "totalSellQuantity": 381567
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN048",
+    "identifier": "SYNN048EQN",
+    "lastPrice": 1161.09,
+    "change": -18.16,
+    "pChange": -1.54,
+    "previousClose": 1179.25,
+    "finalQuantity": 28956,
+    "iep": 1161.09
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 1161.09,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 129650,
+     "totalSellQuantity": 228076
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN049",
+    "identifier": "SYNN049EQN",
+    "lastPrice": 3926.72,
+    "change": 0.0,
+    "pChange": 0.0,
+    "previousClose": 3926.72,
+    "finalQuantity": 25416,
+    "iep": 3926.72
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 3926.72,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 267183,
+     "totalSellQuantity": 366040
+    }
+   }
+  },
+  {
+   "metadata": {
+    "symbol": "SYNN050",
+    "identifier": "SYNN050EQN",
+    "lastPrice": 439.89,
+    "change": 0.0,
+    "pChange": 0.0,
+    "previousClose": 439.89,
+    "finalQuantity": 85327,
+    "iep": 439.89
+   },
+   "detail": {
+    "preOpenMarket": {
+     "IEP": 439.89,
+     "lastUpdateTime": "13-Nov-2026 09:08:03",
+     "totalBuyQuantity": 341250,
+     "totalSellQuantity": 369409
+    }
+   }
+  }
+ ],
+ "advances": 31,
+ "timestamp": "13-Nov-2026 09:08:03"
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!--
+  preopen-brief: Weekly evaluation, Saturday 10:00
+  Times are the PC's LOCAL time: the Windows time zone must be (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi.
+  Edit the two C:\preopen-brief paths below if you installed elsewhere, then import from PowerShell:
+    Register-ScheduledTask -TaskName "preopen-brief weekly" -Xml (Get-Content -Raw scheduling\windows\preopen-brief-weekly.xml)
+  (or Task Scheduler > Import Task...). Remove with: Unregister-ScheduledTask -TaskName "preopen-brief weekly"
+-->
+<Task version="1.2" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
+  <RegistrationInfo>
+    <Description>Weekly evaluation, Saturday 10:00. Informational only; not investment advice.</Description>
+  </RegistrationInfo>
+  <Triggers>
+    <CalendarTrigger>
+      <StartBoundary>2026-01-01T10:00:00</StartBoundary>
+      <Enabled>true</Enabled>
+      <ScheduleByWeek>
+        <DaysOfWeek>
+          <Saturday />
+        </DaysOfWeek>
+        <WeeksInterval>1</WeeksInterval>
+      </ScheduleByWeek>
+    </CalendarTrigger>
+  </Triggers>
+  <Principals>
+    <Principal id="Author">
+      <LogonType>InteractiveToken</LogonType>
+      <RunLevel>LeastPrivilege</RunLevel>
+    </Principal>
+  </Principals>
+  <Settings>
+    <MultipleInstancesPolicy>IgnoreNew</MultipleInstancesPolicy>
+    <DisallowStartIfOnBatteries>false</DisallowStartIfOnBatteries>
+    <StopIfGoingOnBatteries>false</StopIfGoingOnBatteries>
+    <AllowHardTerminate>true</AllowHardTerminate>
+    <StartWhenAvailable>true</StartWhenAvailable>
+    <RunOnlyIfNetworkAvailable>true</RunOnlyIfNetworkAvailable>
+    <AllowStartOnDemand>true</AllowStartOnDemand>
+    <Enabled>true</Enabled>
+    <Hidden>false</Hidden>
+    <WakeToRun>true</WakeToRun>
+    <ExecutionTimeLimit>PT5M</ExecutionTimeLimit>
+    <Priority>7</Priority>
+  </Settings>
+  <Actions Context="Author">
+    <Exec>
+      <Command>C:\preopen-brief\.venv\Scripts\pythonw.exe</Command>
+      <Arguments>-m preopen_brief.jobs.weekly</Arguments>
+      <WorkingDirectory>C:\preopen-brief</WorkingDirectory>
+    </Exec>
+  </Actions>
+</Task>

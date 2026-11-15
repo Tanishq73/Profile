@@ -1,0 +1,8 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+data/
+logs/
+# Real NSE/Yahoo responses saved by probe.py: personal use only, do not redistribute.
+fixtures/*.json

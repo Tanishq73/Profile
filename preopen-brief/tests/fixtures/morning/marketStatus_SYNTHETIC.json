@@ -1,0 +1,47 @@
+{
+ "_synthetic": "SYNTHETIC test fixture - hand-made, NOT a real NSE/Yahoo response",
+ "marketState": [
+  {
+   "market": "Capital Market",
+   "marketStatus": "Close",
+   "tradeDate": "12-Nov-2026 15:30",
+   "index": "NIFTY 50",
+   "last": 25875.8,
+   "variation": 112.35,
+   "percentChange": 0.44,
+   "marketStatusMessage": "Market is Closed"
+  },
+  {
+   "market": "Currency",
+   "marketStatus": "Close",
+   "tradeDate": "12-Nov-2026 15:30",
+   "index": "",
+   "last": "",
+   "variation": "",
+   "percentChange": "",
+   "marketStatusMessage": "Market is Closed"
+  },
+  {
+   "market": "Commodity",
+   "marketStatus": "Close",
+   "tradeDate": "12-Nov-2026 15:30",
+   "index": "",
+   "last": "",
+   "variation": "",
+   "percentChange": "",
+   "marketStatusMessage": "Market is Closed"
+  }
+ ],
+ "giftnifty": {
+  "INSTRUMENTTYPE": "FUTIDX",
+  "SYMBOL": "NIFTY",
+  "EXPIRYDATE": "26-Nov-2026",
+  "OPTIONTYPE": "XX",
+  "STRIKEPRICE": "-",
+  "LASTPRICE": 26030.0,
+  "DAYCHANGE": "78.00",
+  "PERCHANGE": "0.30",
+  "CONTRACTSTRADED": 41873,
+  "TIMESTMP": "13-Nov-2026 09:08"
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "_synthetic": "SYNTHETIC test fixture - hand-made, NOT a real NSE/Yahoo response",
+ "data": [
+  {
+   "key": "BROAD MARKET INDICES",
+   "index": "NIFTY 50",
+   "indexSymbol": "NIFTY 50",
+   "last": 25875.8,
+   "variation": 112.35,
+   "percentChange": 0.44,
+   "open": 25790.1,
+   "high": 25875.8,
+   "low": 25790.1,
+   "previousClose": 25763.45
+  },
+  {
+   "key": "BROAD MARKET INDICES",
+   "index": "NIFTY NEXT 50",
+   "indexSymbol": "NIFTY NEXT 50",
+   "last": 70402.55,
+   "variation": 304.35,
+   "percentChange": 0.43,
+   "open": 70110.0,
+   "high": 70402.55,
+   "low": 70110.0,
+   "previousClose": 70098.2
+  },
+  {
+   "key": "BROAD MARKET INDICES",
+   "index": "NIFTY BANK",
+   "indexSymbol": "NIFTY BANK",
+   "last": 58311.9,
+   "variation": 209.15,
+   "percentChange": 0.36,
+   "open": 58020.4,
+   "high": 58311.9,
+   "low": 58020.4,
+   "previousClose": 58102.75
+  },
+  {
+   "key": "BROAD MARKET INDICES",
+   "index": "INDIA VIX",
+   "indexSymbol": "INDIA VIX",
+   "last": 13.42,
+   "variation": -0.16,
+   "percentChange": -1.18,
+   "open": 13.58,
+   "high": 13.58,
+   "low": 13.42,
+   "previousClose": 13.58
+  }
+ ],
+ "timestamp": "12-Nov-2026 15:30"
+}

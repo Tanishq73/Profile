@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!--
+  preopen-brief: Morning brief, 09:09 Mon-Fri
+  Times are the PC's LOCAL time: the Windows time zone must be (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi.
+  Edit the two C:\preopen-brief paths below if you installed elsewhere, then import from PowerShell:
+    Register-ScheduledTask -TaskName "preopen-brief morning" -Xml (Get-Content -Raw scheduling\windows\preopen-brief-morning.xml)
+  (or Task Scheduler > Import Task...). Remove with: Unregister-ScheduledTask -TaskName "preopen-brief morning"
+-->
+<Task version="1.2" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
+  <RegistrationInfo>
+    <Description>Morning brief, 09:09 Mon-Fri. Informational only; not investment advice.</Description>
+  </RegistrationInfo>
+  <Triggers>
+    <CalendarTrigger>
+      <StartBoundary>2026-01-01T09:09:00</StartBoundary>
+      <Enabled>true</Enabled>
+      <ScheduleByWeek>
+        <DaysOfWeek>
+          <Monday />
+          <Tuesday />
+          <Wednesday />
+          <Thursday />
+          <Friday />
+        </DaysOfWeek>
+        <WeeksInterval>1</WeeksInterval>
+      </ScheduleByWeek>
+    </CalendarTrigger>
+  </Triggers>
+  <Principals>
+    <Principal id="Author">
+      <LogonType>InteractiveToken</LogonType>
+      <RunLevel>LeastPrivilege</RunLevel>
+    </Principal>
+  </Principals>
+  <Settings>
+    <MultipleInstancesPolicy>IgnoreNew</MultipleInstancesPolicy>
+    <DisallowStartIfOnBatteries>false</DisallowStartIfOnBatteries>
+    <StopIfGoingOnBatteries>false</StopIfGoingOnBatteries>
+    <AllowHardTerminate>true</AllowHardTerminate>
+    <StartWhenAvailable>false</StartWhenAvailable>
+    <RunOnlyIfNetworkAvailable>true</RunOnlyIfNetworkAvailable>
+    <AllowStartOnDemand>true</AllowStartOnDemand>
+    <Enabled>true</Enabled>
+    <Hidden>false</Hidden>
+    <WakeToRun>true</WakeToRun>
+    <ExecutionTimeLimit>PT5M</ExecutionTimeLimit>
+    <Priority>7</Priority>
+  </Settings>
+  <Actions Context="Author">
+    <Exec>
+      <Command>C:\preopen-brief\.venv\Scripts\pythonw.exe</Command>
+      <Arguments>-m preopen_brief.jobs.morning</Arguments>
+      <WorkingDirectory>C:\preopen-brief</WorkingDirectory>
+    </Exec>
+  </Actions>
+</Task>
